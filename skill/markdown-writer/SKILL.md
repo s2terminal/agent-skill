@@ -1,6 +1,6 @@
 ---
 name: markdown-writer
-description: 'LLMが解釈しやすいmarkdownを作成・添削するスキル。文章や資料の内容を入力すると、空間的レイアウトに依存せず線形構造と明示的な言葉で表現したLLMフレンドリーなmarkdownを出力します。'
+description: 'markdown（.mdファイル）を新規作成・編集・添削するときに必ず使う。README、ドキュメント、仕様書、SKILL.md、CLAUDE.mdなどあらゆるmarkdownの執筆・修正で起動し、LLMが解釈しやすいmarkdownを出力する。「markdownを書いて」「ドキュメントを作って／直して」「READMEを更新」「.mdを編集」などmarkdownの記述が関わる作業すべてが対象。空間的レイアウトに依存せず線形構造と明示的な言葉で表現する。'
 allowed-tools: Read Write Edit Grep
 argument-hint: 'markdownにしたい内容、または添削したいmarkdownファイルのパス'
 ---
