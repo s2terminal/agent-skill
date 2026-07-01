@@ -1,7 +1,7 @@
 ---
 name: review-planner
 description: 'コードレビューする前に計画書を作成するスキルです。git diff等でレビュー対象の差分を入力すると、コードレビューの計画書を作成します。'
-allowed-tools: Read Grep Skill
+allowed-tools: Read Grep Skill(review-exec)
 argument-hint: 'git diff xxx...yyy'
 ---
 
