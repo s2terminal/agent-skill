@@ -9,3 +9,5 @@ $ cp -r skill/xxxxxxxx ~/.claude/skills
 $ npx skills add https://github.com/s2terminal/agent-skill
 $ npx skills add https://github.com/s2terminal/agent-skill/tree/main/skill/xxxxxxxx
 ```
+
+[skills.sh/s2terminal/agent-skill](https://www.skills.sh/s2terminal/agent-skill)
