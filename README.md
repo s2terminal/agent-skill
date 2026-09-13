@@ -1,3 +1,7 @@
+自分用Agent Skills置き場
+
+## スキルのインストール方法
+
 ```
 $ mkdir -p ~/.claude/skills
 $ cp -r skill/xxxxxxxx ~/.claude/skills
