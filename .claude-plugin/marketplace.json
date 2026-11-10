@@ -1,0 +1,47 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "s2terminal",
+  "owner": {
+    "name": "s2terminal"
+  },
+  "metadata": {
+    "description": "s2terminalの自分用Agent Skills置き場"
+  },
+  "plugins": [
+    {
+      "name": "markdown-writer",
+      "description": "LLMが解釈しやすいmarkdownを作成・添削する",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skill/markdown-writer"]
+    },
+    {
+      "name": "python-inline-script",
+      "description": "PEP 723のinline script metadata形式でuvから起動できるPythonスクリプトを作成する",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skill/python-inline-script"]
+    },
+    {
+      "name": "rebaser",
+      "description": "git rebaseでブランチを最新化する",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skill/rebaser"]
+    },
+    {
+      "name": "review",
+      "description": "コードレビューの計画書を作成し、その計画に従ってレビューを実行する（review-planner / review-exec）",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skill/review-planner", "./skill/review-exec"]
+    },
+    {
+      "name": "trinity-processor",
+      "description": "ChatGPT、Gemini、Claudeに対して、同じ内容を調査させる",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skill/trinity-processor"]
+    }
+  ]
+}
